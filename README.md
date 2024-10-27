@@ -42,9 +42,10 @@ UserXplore is a user management system built with Next.js, Prisma, and SQLite. I
    ```bash
    git clone https://github.com/amineelhassak/UserXplore
    cd UserXplore
+   npm install
   ``
 ## Usage
-
+npm run dev
 Once the application is running, you can access the user management features via the following URL:
 
 - **User Management**: [http://localhost:3000/admin/users](http://localhost:3000/admin/users)

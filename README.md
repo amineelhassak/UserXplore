@@ -68,14 +68,14 @@ The application provides the following API endpoints for user management:
 - page Register
 ![Alt text](./register.png)
 
--Admin page
+- Admin page
 ![Alt text](./admin.png)
 
--Users
+- Users
 ![Alt text](./adminUsers.png)
 
--User view
+- User view
 ![Alt text](./adminUsersID.png)
 
--User Edit
+- User Edit
 ![Alt text](./adminEdit.png)

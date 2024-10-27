@@ -51,6 +51,7 @@ Once the application is running, you can access the user management features via
 
 You can create, read, update, delete, and search for users through the provided user interface.
 terminal:
+  open http://localhost:3000/register
   open http://localhost:3000/admin/users
 
 ## API Endpoints

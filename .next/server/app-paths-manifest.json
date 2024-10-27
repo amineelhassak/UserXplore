@@ -1,0 +1,11 @@
+{
+  "/api/users/route": "app/api/users/route.js",
+  "/api/users/[id]/route": "app/api/users/[id]/route.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/(pages)/admin/(app)/users/page": "app/(pages)/admin/(app)/users/page.js",
+  "/page": "app/page.js",
+  "/(pages)/admin/(app)/page": "app/(pages)/admin/(app)/page.js",
+  "/(pages)/register/page": "app/(pages)/register/page.js",
+  "/(pages)/admin/(app)/users/[id]/page": "app/(pages)/admin/(app)/users/[id]/page.js",
+  "/(pages)/admin/(app)/edit/[id]/page": "app/(pages)/admin/(app)/edit/[id]/page.js"
+}

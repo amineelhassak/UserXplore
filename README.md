@@ -5,7 +5,6 @@
 UserXplore is a user management system built with Next.js, Prisma, and SQLite. It provides an interactive interface for administrators to manage user information effectively. The application includes a registration page for new users and an admin dashboard that allows for viewing, updating, and deleting user data.
 
 ---
-![Alt text](./admin.png)
 ## Table of Contents
 
 - [Features](#features)
@@ -64,3 +63,8 @@ The application provides the following API endpoints for user management:
 - **GET** `/api/users/:id` - Retrieve a specific user by ID
 - **PUT** `/api/users/:id` - Update a specific user by ID
 - **DELETE** `/api/users/:id` - Delete a specific user by ID
+![Alt text](./register.png)
+![Alt text](./admin.png)
+![Alt text](./adminUsers.png)
+![Alt text](./adminUsersID.png)
+![Alt text](./adminEdit.png)

@@ -1,0 +1,20 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = "file:./prisma/dev.db"
+}
+
+model User {
+  id              Int      @id @default(autoincrement()) // Unique identifier for each user
+  firstname       String   // First name of the user
+  lastname        String   // Last name of the user
+  email           String   @unique // Email must be unique across users
+  address         String?  // Address of the user (optional)
+  gender          String?  // Gender of the user (optional)
+  password        String   // Password of the user
+  confirmpassword String   // Confirmation of password
+  createdAt       DateTime @default(now()) // Timestamp when the user was created
+}

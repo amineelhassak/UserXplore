@@ -65,7 +65,7 @@ The application provides the following API endpoints for user management:
 - **DELETE** `/api/users/:id` - Delete a specific user by ID
 
 
-- page Register
+- Register
 ![Alt text](./register.png)
 
 - Users

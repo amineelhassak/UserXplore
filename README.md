@@ -63,8 +63,19 @@ The application provides the following API endpoints for user management:
 - **GET** `/api/users/:id` - Retrieve a specific user by ID
 - **PUT** `/api/users/:id` - Update a specific user by ID
 - **DELETE** `/api/users/:id` - Delete a specific user by ID
+
+
+- page Register
 ![Alt text](./register.png)
+
+-Admin page
 ![Alt text](./admin.png)
+
+-Users
 ![Alt text](./adminUsers.png)
+
+-User view
 ![Alt text](./adminUsersID.png)
+
+-User Edit
 ![Alt text](./adminEdit.png)
